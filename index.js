@@ -1,5 +1,6 @@
 const scrape = require('website-scraper')
 const options = {
+    recursive: true,
     urls: ['https://alexanderandjamessofas.com/'],
     directory: './static/',
 }
