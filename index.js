@@ -5,10 +5,10 @@ const options = {
 }
 
 // with async/await
-const result = await scrape(options)
+//const result = await scrape(options)
 
 // with promise
-//scrape(options).then(result => {})
+scrape(options).then(result => {})
 
 // or with callback
 //scrape(options, (error, result) => {})
